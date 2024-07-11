@@ -19,7 +19,7 @@ function Select-DriveOrFolder {
 }
 
 # Define the patterns to search for
-$filePatterns = "*.txt", "*.csv", "*.xlsx"
+$filePatterns = "*.txt", "*.csv", "*.xlsx", "*.conf"
 $keywordPatterns = "password", "username", "login", "credentials", "secret", "account"
 $fileNamePatterns = "*backup*", "*config*", "*passwords*", "*accounts*", "*show run*", "*show startup*", "*startup*", "*show-run*"
 
